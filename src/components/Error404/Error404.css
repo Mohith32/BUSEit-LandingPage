@@ -9,7 +9,7 @@
     height: 100vh;
 
     /* Background */
-    background: #FFFFFF;
+    background: #FFF5F0;
 
     /* Centering */
     display: flex;
@@ -30,7 +30,7 @@
     height: 100vh;
 
     /* Background */
-    background: #FFFFFF;
+    background: #FFF5F0;
 
     /* Position for absolute children */
     position: relative;
