@@ -24,8 +24,8 @@
     height: 61px;
     padding: 17px;
 
-    /* Glassmorphism effect */
-    background: rgba(255, 255, 255, 0.63);
+    /* Background color updated */
+    background: #FFF5F0;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import illustrationImg from '../../../assets/JoinWaitingList/illustration.png';
 import './JoinWaitingList.css';
 
+
 const JoinWaitingList = () => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({

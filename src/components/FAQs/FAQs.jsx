@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './FAQs.css';
 
+
 const FAQs = () => {
     const [activeTab, setActiveTab] = useState('buyers');
     const [expandedItem, setExpandedItem] = useState(null);

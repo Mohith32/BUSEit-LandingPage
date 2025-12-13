@@ -11,7 +11,6 @@ import JoinWaitingList from './components/JoinWaitingList/JoinWaitingList';
 import WaitlistConfirmation from './components/WaitlistConfirmation/WaitlistConfirmation';
 import Error404 from './components/Error404/Error404';
 import './styles/designSystem.css';
-import './styles/responsive.css';
 import './App.css';
 
 function App() {

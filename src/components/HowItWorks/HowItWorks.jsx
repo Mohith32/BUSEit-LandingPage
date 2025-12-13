@@ -5,6 +5,7 @@ import Card3 from './Card3/Card3';
 import NavigationArrows from './NavigationArrows';
 import './HowItWorks.css';
 
+
 const HowItWorks = () => {
     // State for current card (0 = Card1, 1 = Card2, 2 = Card3)
     const [currentCard, setCurrentCard] = useState(0);

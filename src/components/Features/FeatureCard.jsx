@@ -1,6 +1,7 @@
 import React from 'react';
 import './FeatureCard.css';
 
+
 const FeatureCard = ({ title, imagePath, overlayImage, cardClass }) => {
     return (
         <div className={`feature-card ${cardClass}`}>

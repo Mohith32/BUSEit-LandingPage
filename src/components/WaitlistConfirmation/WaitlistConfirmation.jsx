@@ -2,6 +2,7 @@ import React from 'react';
 import illustrationImg from '../../../assets/WaitListConfirmation/illustration.png';
 import './WaitlistConfirmation.css';
 
+
 const WaitlistConfirmation = () => {
     // This would come from backend/state in production
     const placeInLine = 1256;

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
+
 const Footer = () => {
     return (
         <footer className="footer-section">
@@ -49,15 +50,15 @@ const Footer = () => {
 
                             {/* Social Media Links Column */}
                             <div className="footer-social-column">
-                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer-link">
+                                <a href="https://www.instagram.com/buseit.club/" target="_blank" rel="noopener noreferrer" className="footer-link">
                                     <img src="/footer/instagram.png" alt="" className="footer-link-icon" />
                                     <span>Instagram</span>
                                 </a>
-                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="footer-link">
+                                <a href="https://www.facebook.com/buseit.club" target="_blank" rel="noopener noreferrer" className="footer-link">
                                     <img src="/footer/facebook.png" alt="" className="footer-link-icon" />
                                     <span>Facebook</span>
                                 </a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">
+                                <a href="https://www.linkedin.com/company/buseit" target="_blank" rel="noopener noreferrer" className="footer-link">
                                     <img src="/footer/linkedin.png" alt="" className="footer-link-icon" />
                                     <span>LinkedIn</span>
                                 </a>

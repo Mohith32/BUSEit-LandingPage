@@ -18,11 +18,13 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <img
-            src="/assets/logos/BUSEit..svg"
-            alt="BUSEit Logo"
-            className="logo-image"
-          />
+          <Link to="/">
+            <img
+              src="/assets/logos/BUSEit..svg"
+              alt="BUSEit Logo"
+              className="logo-image"
+            />
+          </Link>
         </div>
 
         {/* Navigation Links */}

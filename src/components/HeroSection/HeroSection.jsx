@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
 
+
 const HeroSection = () => {
     return (
         <section className="hero-section">
@@ -8,7 +9,7 @@ const HeroSection = () => {
                 {/* Left Side - Hero Animation GIF */}
                 <div className="hero-animation">
                     <img
-                        src="/assets/heroSectionComponents/heroSectionAnimation.gif"
+                        src="/assets/heroSectionComponents/newAnimation.gif"
                         alt="BUSEit Hero Animation"
                         className="hero-gif"
                     />
@@ -60,7 +61,7 @@ const HeroSection = () => {
 
             {/* Footer Banner - At bottom of Hero Section */}
             <div className="hero-footer-banner">
-                <p className="hero-footer-text">BUYit • USEit • SELLit</p>
+                <p className="hero-footer-text">everything preowned</p>
             </div>
         </section>
     );

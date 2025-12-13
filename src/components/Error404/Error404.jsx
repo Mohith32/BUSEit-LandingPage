@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import illustrationImg from '../../../assets/404Screen/illustration.png';
 import './Error404.css';
 
+
 const Error404 = () => {
     return (
         <div className="error-404-page">

@@ -11,7 +11,7 @@
     margin-top: 127px;
 
     /* Background */
-    background: #FFF5F0;
+    background: #FFFFFF;
 
     /* Padding - no bottom padding */
     padding: 0;
@@ -28,7 +28,7 @@
     height: 849px;
 
     /* Styling */
-    background: #FFFFFF;
+    background: #FFF5F0;
     border-radius: 16px;
 
     /* Padding */
@@ -229,7 +229,7 @@
 
     /* Custom scrollbar styling */
     scrollbar-width: thin;
-    scrollbar-color: #CCCCCC #FFF5F0;
+    scrollbar-color: #CCCCCC #FFFFFF;
 }
 
 /* Webkit scrollbar styling */
@@ -238,7 +238,7 @@
 }
 
 .faq-accordion::-webkit-scrollbar-track {
-    background: #FFF5F0;
+    background: #FFFFFF;
     border-radius: 24px;
 }
 
