@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card2.css';
+import './Card2.mobile.css';
 
 import OrderedItemsCard from './Illustrations/OrderedItemsCard';
 import PickedUpCard from './Illustrations/PickedUpCard';

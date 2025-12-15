@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './FAQs.css';
+import './FAQs.mobile.css';
 
 
 const FAQs = () => {
@@ -135,6 +137,11 @@ const FAQs = () => {
                                 </React.Fragment>
                             ))}
                         </div>
+
+                        {/* Mobile CTA Button - Shows below accordion on mobile */}
+                        <Link to="/join-waitlist" className="faq-cta-pill">
+                            <span className="faq-cta-text">Still need help? Talk to us →</span>
+                        </Link>
                     </div>
 
                     {/* Right Column: Heading + Description + CTA */}

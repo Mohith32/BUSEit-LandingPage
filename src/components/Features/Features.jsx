@@ -1,6 +1,7 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import './Features.css';
+import './Features.mobile.css';
 
 
 const Features = () => {

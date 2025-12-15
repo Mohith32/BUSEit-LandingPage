@@ -90,6 +90,11 @@
     flex-shrink: 0;
 }
 
+/* Hide mobile CTA button on desktop */
+.faq-left-column .faq-cta-pill {
+    display: none;
+}
+
 .pill-text-faqs {
     /* Exact Figma typography */
     font-family: 'SF Pro Display', sans-serif;

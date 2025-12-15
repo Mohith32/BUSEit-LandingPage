@@ -80,18 +80,19 @@
     justify-content: center;
 }
 
-/* Header Text Group (Heading + Subtitle) */
+/* Header Text Group (Heading + Description) - EXACT FIGMA */
+.text-group,
 .header-text-group {
     /* Exact Figma dimensions */
     width: 1211px;
     max-width: 100%;
+    height: auto;
 
     /* Layout */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    /* Gap between heading and subtitle */
 }
 
 /* Main Heading */
@@ -118,14 +119,15 @@
     animation: fadeInUp 0.6s ease-out;
 }
 
-/* Subtitle */
-.section-subtitle {
-    /* Exact Figma dimensions */
-    width: 709px;
-    max-width: 100%;
+/* Subtitle - Centered and Adaptive */
+.section-subtitle,
+.section-description {
+    /* Adaptive dimensions */
+    width: 100%;
+    max-width: 709px;
 
-    /* Typography */
-    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    /* Typography - EXACT FIGMA */
+    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -133,8 +135,8 @@
     text-align: center;
     color: #1A1A1A;
 
-    /* Reset margins */
-    margin: 0;
+    /* Centered with auto margins */
+    margin: 0 auto;
 
     /* Animation */
     animation: fadeInUp 0.6s ease-out 0.1s backwards;
@@ -151,6 +153,26 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Cards Container - Desktop shows one at a time */
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* On desktop, hide cards 2 and 3 by default - will be shown by arrows */
+.cards-wrapper>div:nth-child(2),
+.cards-wrapper>div:nth-child(3) {
+    display: none;
 }
 
 /* Card Showcase */

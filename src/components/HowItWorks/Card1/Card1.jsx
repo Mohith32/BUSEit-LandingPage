@@ -1,5 +1,6 @@
 import React from 'react';
 import './Card1.css';
+import './Card1.mobile.css';
 
 import ProductCard from './Illustrations/ProductCard';
 import StarsBadge from './Illustrations/StarsBadge';

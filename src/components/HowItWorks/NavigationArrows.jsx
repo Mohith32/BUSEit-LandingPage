@@ -1,11 +1,11 @@
 import React from 'react';
 import './NavigationArrows.css';
 
-const NavigationArrows = ({ onPrevious, onNext }) => {
+const NavigationArrows = ({ onPrev, onNext }) => {
     return (
         <div className="navigation-arrows">
             {/* Up Arrow Button */}
-            <button className="arrow-button" onClick={onPrevious} aria-label="Previous">
+            <button className="arrow-button" onClick={onPrev} aria-label="Previous">
                 <img
                     src="/howitworksILLUSTRATIONS/arrows/upArrow.svg"
                     alt="Previous"

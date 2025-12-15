@@ -209,8 +209,8 @@
 
 /* Card Description */
 .card-description {
-    /* Dimensions */
-    width: 529px;
+    /* Dimensions - 16px gap from right edge */
+    width: 501px;
     height: 46px;
 
     /* Typography */

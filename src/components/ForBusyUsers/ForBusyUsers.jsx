@@ -1,5 +1,6 @@
 import React from 'react';
 import './ForBusyUsers.css';
+import './ForBusyUsers.mobile.css';
 
 
 const ForBusyUsers = () => {
@@ -46,7 +47,7 @@ const ForBusyUsers = () => {
                 <div className="feature-text-busy">
                   <h4 className="feature-title-busy">Save Time</h4>
                   <p className="feature-description-busy">
-                    List in seconds. Buy with confidence. No endless messaging.
+                    List in seconds. Buy with confidence.<br />No endless messaging.
                   </p>
                 </div>
               </div>
@@ -57,7 +58,7 @@ const ForBusyUsers = () => {
                 <div className="feature-text-busy">
                   <h4 className="feature-title-busy">Safe & Secure</h4>
                   <p className="feature-description-busy">
-                    Items verified by us, payments protected by secure escrow.
+                    Items verified by us, payments<br />protected by secure escrow.
                   </p>
                 </div>
               </div>
