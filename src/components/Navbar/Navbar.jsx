@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="navbar-logo">
             <Link to="/" onClick={() => setMobileMenuOpen(false)}>
               <img
-                src="/assets/logos/BUSEit..svg"
+                src="/logos/BUSEit..svg"
                 alt="BUSEit Logo"
                 className="logo-image"
               />

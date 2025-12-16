@@ -46,7 +46,7 @@ const HeroSection = () => {
                     >
                         Download The App
                         <img
-                            src="/assets/For Busy Users/arrow-circle-right (1).png"
+                            src="/For Busy Users/arrow-circle-right (1).png"
                             alt="Arrow"
                             className="download-arrow-icon"
                         />
@@ -55,7 +55,7 @@ const HeroSection = () => {
 
                 {/* GIF/Illustration */}
                 <img
-                    src="/assets/heroSectionComponents/newAnimation.gif"
+                    src="/heroSectionComponents/newAnimation.gif"
                     alt="BUSEit Hero Animation"
                     className="hero-illustration"
                 />
@@ -63,7 +63,7 @@ const HeroSection = () => {
                 {/* Desktop Layout (Hidden on mobile) */}
                 <div className="hero-animation">
                     <img
-                        src="/assets/heroSectionComponents/newAnimation.gif"
+                        src="/heroSectionComponents/newAnimation.gif"
                         alt="BUSEit Hero Animation"
                         className="hero-gif"
                     />
@@ -88,7 +88,7 @@ const HeroSection = () => {
                             className="badge-link"
                         >
                             <img
-                                src="/assets/Apple and google download/Download_on_the_App_Store_Badge.svg"
+                                src="/Apple and google download/Download_on_the_App_Store_Badge.svg"
                                 alt="Download on App Store"
                                 className="app-badge apple-badge"
                             />
@@ -101,7 +101,7 @@ const HeroSection = () => {
                             className="badge-link"
                         >
                             <img
-                                src="/assets/Apple and google download/Google_Play_Store_badge_EN.svg"
+                                src="/Apple and google download/Google_Play_Store_badge_EN.svg"
                                 alt="Get it on Google Play"
                                 className="app-badge google-badge"
                             />

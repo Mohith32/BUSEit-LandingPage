@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import illustrationImg from '../../../assets/404Screen/illustration.png';
 import './Error404.css';
 import './Error404.mobile.css';
 
@@ -31,7 +30,7 @@ const Error404 = () => {
 
                 {/* Illustration */}
                 <img
-                    src={illustrationImg}
+                    src="/404Screen/illustration.png"
                     alt="404 Error - Server maintenance"
                     className="error-illustration"
                 />
